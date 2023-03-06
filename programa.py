@@ -17,11 +17,21 @@ def productor():
     while True:
         producto=produccion()
         try:
-            cola.put(producto)
+            cola.put(producto,block=False)
             print("Produciendo, ",producto)
         except queue.Full:
             print("La cola está llena, tendrás que esperar")
             time.sleep(2)
+
+def consumidor():
+    while True:
+        try:
+            producto=cola.get(block=False)
+            consumicion(producto)
+        except queue.Empty:
+            print("La cola está vacía, tendrás que esperar")
+            time.sleep(2)
+
 
 
 
