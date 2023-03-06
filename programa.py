@@ -7,18 +7,18 @@ cola=queue.Queue(maxsize=5)
 
 def produccion():
     time.sleep(2)
-    return f"Producto{time.time()}"
+    return f"Producto {time.time()}"
 
 def consumicion(producto):
     time.sleep(2)
-    print("Consimuendo, ", producto)
+    print("Consumiendo ", producto)
 
 def productor():
     while True:
         producto=produccion()
         try:
             cola.put(producto,block=False)
-            print("Produciendo, ",producto)
+            print("Produciendo ",producto)
         except queue.Full:
             print("La cola está llena, tendrás que esperar")
             time.sleep(2)
