@@ -33,5 +33,14 @@ def consumidor():
             time.sleep(2)
 
 
+# Creamos los hilos
 
+hiloProductor=threading.Thread(target=productor)
+hiloConsumidor=threading.Thread(target=consumidor)
+
+hiloProductor.start()
+hiloConsumidor.start()
+
+hiloProductor.join()
+hiloConsumidor.join()
 
