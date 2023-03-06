@@ -52,3 +52,12 @@ hiloProductor.join()
 hiloConsumidor.join()
 ```
 
+<img width="912" alt="consu" src="https://user-images.githubusercontent.com/91721643/223271140-1a76fa81-e66e-4cee-b6d6-b60c94abadac.png">
+
+
+
+
+
+
+
+Ahora llevaré a cabo un ejemplo más cuotidiano para que se entienda mejor el programa:
