@@ -2,7 +2,7 @@
 
 El link de este repositorio es el siguiente:
 
-En este ejercicio, hemos llevado a cabo el programa de productores y consumidores, el cual es un buen ejercicio de la programación concurrente. En mi programa he utilizado el módulo queue, y threading, ya que he tenido que utilizar hilos para poder llevarlo a cabo. El código es el siguiente:
+En este ejercicio, he llevado a cabo el programa de productores y consumidores, el cual es un buen ejercicio de la programación concurrente. En mi programa he utilizado el módulo queue, y threading, ya que he tenido que utilizar hilos para poder llevarlo a cabo. El código es el siguiente:
 
 ```
 import queue
