@@ -1,6 +1,6 @@
 # prodYconsu
 
-El link de este repositorio es el siguiente:
+El link de este repositorio es el siguiente: https://github.com/carlospuigserver/prodYconsu.git
 
 En este ejercicio, he llevado a cabo el programa de productores y consumidores, el cual es un buen ejercicio de la programación concurrente. En mi programa he utilizado el módulo queue, y threading, ya que he tenido que utilizar hilos para poder llevarlo a cabo. El código es el siguiente:
 
