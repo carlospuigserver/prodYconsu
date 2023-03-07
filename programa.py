@@ -7,7 +7,7 @@ cola=queue.Queue(maxsize=5)
 
 def produccion():
     time.sleep(2)
-    return f"Producto {time.time()}"
+    return f"Producto  {time.time()}"
 
 def consumicion(producto):
     time.sleep(2)
